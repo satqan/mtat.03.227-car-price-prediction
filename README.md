@@ -26,3 +26,13 @@ This project builds a predictive model to estimate used car prices based on vehi
   - scikit-learn
   - XGBoost
   - matplotlib, seaborn
+
+## Project Files
+
+- **`car_price_prediction.ipynb`** – Main notebook containing exploratory data analysis, model training, evaluation, and predictions.
+- **`car_scraper.py`** – Script used to scrape used car listings and features from Auto24.ee and store them in a CSV file.
+- **`auto24_cars_raw.csv`** – Raw dataset containing scraped car listings before any cleaning or preprocessing.
+- **`auto24_cars_clean.csv`** – Cleaned and preprocessed dataset used for exploratory analysis and model training.
+- **`prepare_data.ipynb`** – Jupyter notebook performing data cleaning, preprocessing, and feature engineering.
+- **`predictions_with_urls.csv`** – File containing predicted car prices linked to their original Auto24 listing URLs.
+- **`requirements.txt`** – List of Python dependencies required to run the project.
